@@ -12,13 +12,6 @@ import android.widget.Toast;
 
 public class DialogSignin extends DialogFragment {
 	
-//	public static DialogSignin newInstance(int title){
-//		DialogSignin frag = new DialogSignin();
-//		Bundle args = new Bundle();
-//		args.putInt("title", title);
-//		frag.setArguments(args);
-//		return frag;
-//	}
 	
 	@Override
 	public Dialog onCreateDialog(Bundle saveInstanceState){
