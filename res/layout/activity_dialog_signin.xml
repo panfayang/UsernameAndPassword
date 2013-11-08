@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     tools:context=".DialogSignin" >
 
-    
+<!--     
     <ImageView 
         android:src="@drawable/header_logo"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:scaleType="center"
         android:background="#FFFFBB33"
-        android:contentDescription="@string/app_name"/>
+        android:contentDescription="@string/app_name"/> -->
     
     <EditText
         android:id="@+id/username"
@@ -23,7 +23,7 @@
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
-        android:hint="@string/username" 
+        android:hint="@string/user" 
         />
     
     <EditText
@@ -36,5 +36,5 @@
         android:layout_marginRight="4dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="sans-serif"
-        android:hint="@string/password"/>
+        android:hint="@string/pass"/>
 </LinearLayout>

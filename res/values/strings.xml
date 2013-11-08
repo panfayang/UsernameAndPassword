@@ -6,7 +6,11 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_dialog_sign_in">DialogSignIn</string>
     <string name="title_activity_dialog_signin">DialogSignin</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
+    <string name="user">Username</string>
+    
+    <string name="pass">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_fragment_wrapper">FragmentWrapper</string>
 
 </resources>

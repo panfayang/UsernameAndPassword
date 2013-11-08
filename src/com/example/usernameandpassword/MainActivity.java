@@ -1,10 +1,13 @@
 package com.example.usernameandpassword;
 
-import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
 
-public class MainActivity extends Activity {
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.view.Menu;
+import android.view.View;
+
+public class MainActivity extends FragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -18,5 +21,15 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+	
+	public void dialogSignin(View view){
+		FragmentManager fm = getSupportFragmentManager();
+		DialogSignin ds = new DialogSignin();
+		ds.show(fm, "dialog_Signin");
+//		Intent intent = new Intent(this, FragmentWrapper.class);
+//    	startActivity(intent);
+//		DialogFragment newFragment = DialogSignin.newInstance(R.string.title_activity_dialog_signin);
+//		newFragment.show(getSupportFragmentManager(),"kjhk");
 
+	}
 }
