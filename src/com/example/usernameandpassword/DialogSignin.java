@@ -35,8 +35,8 @@ public class DialogSignin extends DialogFragment {
 					String username = uname.getText().toString();
 					String password = pword.getText().toString();
 					Toast.makeText(getActivity(), username, Toast.LENGTH_SHORT).show();
-					if (username=="pan" && password=="abc"){
-						Toast toast = Toast.makeText(getActivity(), password, Toast.LENGTH_SHORT);
+					if (username.equals("pan") && password.equals("abc")){
+						Toast toast = Toast.makeText(getActivity(), "success", Toast.LENGTH_SHORT);
 						toast.show();
 					}
 					else{
